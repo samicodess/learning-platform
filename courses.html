@@ -1,0 +1,53 @@
+<!-- course.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Details</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="course-title">Course Title</h1>
+    <button id="back-button">Back to Dashboard</button>
+  </header>
+
+  <main>
+    <section id="course-content">
+      <!-- Course information, videos, and quizzes will be dynamically loaded here -->
+    </section>
+
+    <section id="course-progress">
+      <h2>Progress</h2>
+      <div id="progress-bar-container">
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill">0%</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Example structure in course.html -->
+<section id="course-lessons">
+    <h2>Lessons</h2>
+    <div id="lesson-list">
+      <!-- Dynamic lesson content -->
+    </div>
+  </section>
+  
+  <section id="course-quizzes">
+    <h2>Quizzes</h2>
+    <div id="quiz-list">
+      <!-- Dynamic quiz content -->
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2024 Personalized Learning Platform</p>
+  </footer>
+
+  <script src="scripts/courses.js"></script>
+</body>
+</html>
